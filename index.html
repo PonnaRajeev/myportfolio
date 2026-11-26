@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Rajeev Ponna, an OpenShift Platform & Production Operations Engineer supporting regulated banking environments." />
+  <title>Rajeev Ponna &mdash; OpenShift Platform Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__brand" href="#top">Rajeev&nbsp;Ponna</a>
+      <button
+        class="nav__toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+            <span class="theme-toggle__icon" aria-hidden="true">&#9789;</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="hero" id="about">
+      <p class="hero__eyebrow">OpenShift Platform Engineer &middot; Production Operations</p>
+      <h1 class="hero__title">
+        Hi, I&rsquo;m Rajeev &mdash; I keep <span class="highlight">mission-critical</span> banking platforms running.
+      </h1>
+      <p class="hero__bio">
+        OpenShift Platform and Production Operations Engineer with hands-on experience supporting regulated
+        banking environments across Production, Disaster Recovery, UAT and Non-Production. I work with Red Hat
+        OpenShift, IBM Cloud Pak for Integration (CP4I), IBM MQ, App Connect, API Connect and DataPower &mdash;
+        covering production deployments, change execution, incident support, platform upgrades, DR operations
+        and automation. I&rsquo;m comfortable in controlled environments with CyberArk privileged access,
+        SSL/TLS, security controls, monitoring/logging and CI/CD, and I care deeply about change governance,
+        operational stability, security and audit readiness.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#projects">View my work</a>
+        <a class="btn btn--ghost" href="#contact">Get in touch</a>
+      </div>
+      <dl class="hero__stats">
+        <div class="stat">
+          <dt class="stat__label">Years in production ops</dt>
+          <dd class="stat__value" data-count-to="3" data-suffix="+">0</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat__label">Environments supported</dt>
+          <dd class="stat__value" data-count-to="4">0</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat__label">MQ queue managers migrated</dt>
+          <dd class="stat__value" data-count-to="6">0</dd>
+        </div>
+      </dl>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section section--skills" id="skills" aria-labelledby="skills-heading">
+      <div class="section__head">
+        <h2 class="section__title" id="skills-heading">Technical skills</h2>
+        <p class="section__intro">
+          The platforms, tooling and practices I use day to day supporting enterprise banking systems.
+        </p>
+      </div>
+
+      <div class="skills">
+        <article class="skill-group">
+          <h3 class="skill-group__title">Orchestration &amp; Platforms</h3>
+          <ul class="skill-list">
+            <li>Red Hat OpenShift</li>
+            <li>Kubernetes</li>
+            <li>Docker</li>
+            <li>IBM Cloud Pak for Integration (CP4I)</li>
+            <li>IBM App Connect</li>
+            <li>IBM API Connect</li>
+            <li>IBM DataPower</li>
+            <li>IBM MQ</li>
+            <li>VMware vSphere</li>
+            <li>Microsoft Azure</li>
+            <li>Bare Metal</li>
+          </ul>
+        </article>
+
+        <article class="skill-group">
+          <h3 class="skill-group__title">OS &amp; Automation</h3>
+          <ul class="skill-list">
+            <li>Linux (RHEL, RHCOS, Ubuntu)</li>
+            <li>Windows</li>
+            <li>Shell Scripting / Bash</li>
+            <li>Ansible</li>
+            <li>GitLab CI/CD</li>
+          </ul>
+        </article>
+
+        <article class="skill-group">
+          <h3 class="skill-group__title">Storage &amp; Monitoring</h3>
+          <ul class="skill-list">
+            <li>OCS / ODF</li>
+            <li>Red Hat Quay</li>
+            <li>Docker Registry</li>
+            <li>Prometheus</li>
+            <li>Alertmanager</li>
+            <li>Dynatrace</li>
+            <li>EFK Stack</li>
+            <li>LokiStack</li>
+            <li>Jaeger</li>
+          </ul>
+        </article>
+
+        <article class="skill-group">
+          <h3 class="skill-group__title">Security &amp; Access</h3>
+          <ul class="skill-list">
+            <li>CyberArk PAM</li>
+            <li>LDAP</li>
+            <li>RBAC</li>
+            <li>SSL/TLS</li>
+            <li>IP Whitelisting</li>
+            <li>Ingress Policies</li>
+          </ul>
+        </article>
+
+        <article class="skill-group">
+          <h3 class="skill-group__title">Production &amp; Change</h3>
+          <ul class="skill-list">
+            <li>Production Change Management</li>
+            <li>Release &amp; Deployment</li>
+            <li>Change Validation</li>
+            <li>Implementation Planning</li>
+            <li>Risk / Impact Assessment</li>
+            <li>Rollback Planning</li>
+            <li>CAB / Release Readiness</li>
+            <li>Post-Implementation Validation</li>
+          </ul>
+        </article>
+
+        <article class="skill-group">
+          <h3 class="skill-group__title">Production Support</h3>
+          <ul class="skill-list">
+            <li>Incident Management</li>
+            <li>Troubleshooting</li>
+            <li>Root Cause Analysis (RCA)</li>
+            <li>Recovery Support</li>
+            <li>DR Operations</li>
+            <li>Health Checks</li>
+            <li>Platform Maintenance</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="section__head">
+        <h2 class="section__title" id="projects-heading">Selected work</h2>
+        <p class="section__intro">
+          Production platform engineering for Standard Bank, Mozambique &mdash; spanning OpenShift, IBM
+          integration middleware and security-hardened, audited operations.
+        </p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter projects by technology">
+        <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-filter="openshift" aria-pressed="false">OpenShift</button>
+        <button class="chip" type="button" data-filter="ibm" aria-pressed="false">IBM Middleware</button>
+        <button class="chip" type="button" data-filter="security" aria-pressed="false">Security</button>
+        <button class="chip" type="button" data-filter="automation" aria-pressed="false">Automation</button>
+        <button class="chip" type="button" data-filter="storage" aria-pressed="false">Storage</button>
+      </div>
+
+      <ul class="project-grid" id="project-grid">
+        <li class="card" data-tags="openshift storage" data-featured="true">
+          <div class="card__media" aria-hidden="true">
+            <span class="card__glyph">&#9635;</span>
+          </div>
+          <div class="card__body">
+            <div class="card__meta">
+              <span class="pill pill--featured">Featured</span>
+              <span class="pill">2023&ndash;2025</span>
+            </div>
+            <h3 class="card__title">Disconnected OpenShift Clusters</h3>
+            <p class="card__text">
+              Installed and configured disconnected Red Hat OpenShift clusters across Non-Prod, Prod and
+              DR on VMware vSphere &mdash; including a Red Hat Quay registry, DNS, HAProxy and supporting
+              infrastructure, plus OCS/ODF persistent storage.
+            </p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>OpenShift</li>
+              <li>RHCOS</li>
+              <li>Quay</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="card" data-tags="ibm openshift">
+          <div class="card__media card__media--alt" aria-hidden="true">
+            <span class="card__glyph">&#9878;</span>
+          </div>
+          <div class="card__body">
+            <div class="card__meta"><span class="pill">2023&ndash;2025</span></div>
+            <h3 class="card__title">IBM Cloud Pak for Integration (CP4I)</h3>
+            <p class="card__text">
+              Installed and configured CP4I end to end &mdash; App Connect, API Connect, IBM MQ and DataPower
+              &mdash; including API Connect provider organizations, SMTP integration, DataPower gateway
+              peering and custom SSL certificates.
+            </p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>CP4I</li>
+              <li>App Connect</li>
+              <li>API Connect</li>
+              <li>DataPower</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="card" data-tags="ibm openshift">
+          <div class="card__media card__media--warm" aria-hidden="true">
+            <span class="card__glyph">&#9881;</span>
+          </div>
+          <div class="card__body">
+            <div class="card__meta"><span class="pill">2024</span></div>
+            <h3 class="card__title">IBM MQ Migration to OpenShift</h3>
+            <p class="card__text">
+              Led migration of 3 Non-Production and 3 Production IBM MQ Queue Managers &mdash; including
+              DMZ-hosted environments &mdash; from standalone servers to Red Hat OpenShift, with ConfigMaps,
+              Secrets, cutover testing and post-cutover troubleshooting.
+            </p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>IBM MQ</li>
+              <li>OpenShift</li>
+              <li>SSL/TLS</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="card" data-tags="openshift">
+          <div class="card__media card__media--cool" aria-hidden="true">
+            <span class="card__glyph">&#10052;</span>
+          </div>
+          <div class="card__body">
+            <div class="card__meta"><span class="pill">2024&ndash;2025</span></div>
+            <h3 class="card__title">OpenShift Upgrades &amp; Platform Maintenance</h3>
+            <p class="card__text">
+              Performed cluster health checks, maintenance and upgrades from OpenShift 4.14.0 to 4.18.32
+              across Non-Prod, Prod and DR &mdash; covering operators, nodes, networking, storage, routes,
+              certificates and workload health.
+            </p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>OpenShift</li>
+              <li>OCP 4.14&rarr;4.18</li>
+              <li>Node Patching</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="card" data-tags="security openshift">
+          <div class="card__media card__media--alt" aria-hidden="true">
+            <span class="card__glyph">&#9673;</span>
+          </div>
+          <div class="card__body">
+            <div class="card__meta"><span class="pill">2023&ndash;2025</span></div>
+            <h3 class="card__title">Hardened Access &amp; Network Controls</h3>
+            <p class="card__text">
+              Implemented LDAP integration, RBAC, EgressIP, ingress policies and IP whitelisting, and
+              operated production through CyberArk PAM with PSM, session recording, segregation-of-duties
+              and full audit requirements.
+            </p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>CyberArk PAM</li>
+              <li>LDAP</li>
+              <li>RBAC</li>
+              <li>EgressIP</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="card" data-tags="automation openshift storage">
+          <div class="card__media card__media--warm" aria-hidden="true">
+            <span class="card__glyph">&#9993;</span>
+          </div>
+          <div class="card__body">
+            <div class="card__meta"><span class="pill">2024&ndash;2025</span></div>
+            <h3 class="card__title">Monitoring &amp; Operational Automation</h3>
+            <p class="card__text">
+              Built centralized logging with the EFK stack and Alertmanager SMTP routing, wrote custom
+              PrometheusRules for platform and namespace alerts, and automated ETCD backups plus
+              certificate-expiry monitoring with bash scripting.
+            </p>
+            <ul class="tags" aria-label="Technologies used">
+              <li>EFK</li>
+              <li>Prometheus</li>
+              <li>Alertmanager</li>
+              <li>Bash</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+
+      <p class="empty-state" id="empty-state" hidden>
+        No projects match that filter yet &mdash; try another technology.
+      </p>
+    </section>
+
+    <section class="section section--achievements" id="achievements" aria-labelledby="achievements-heading">
+      <div class="section__head">
+        <h2 class="section__title" id="achievements-heading">Achievements &amp; recognition</h2>
+        <p class="section__intro">
+          Awards and recognition earned while delivering the Standard Bank platform programme.
+        </p>
+      </div>
+
+      <ul class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__marker" aria-hidden="true">&#9733;</div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="pill pill--featured">Team Award</span>
+              <span class="pill">December 2024</span>
+            </div>
+            <h3 class="timeline__title">Standard Bank Project Recognition</h3>
+            <p class="timeline__text">
+              Recognised for key contributions to the Standard Bank project.
+            </p>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <div class="timeline__marker" aria-hidden="true">&#9733;</div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="pill pill--featured">Performance Recognition</span>
+              <span class="pill">Q1 2025</span>
+            </div>
+            <h3 class="timeline__title">Outstanding Contribution Award</h3>
+            <p class="timeline__text">
+              Acknowledged for outstanding contributions to the Standard Bank project during Q1 2025.
+            </p>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <div class="timeline__marker" aria-hidden="true">&#9733;</div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="pill pill--featured">Employee Appreciation Award</span>
+              <span class="pill">EIDIKO Systems Integrators</span>
+            </div>
+            <h3 class="timeline__title">16th Anniversary Appreciation Award</h3>
+            <p class="timeline__text">
+              Recognised for consistent dedication and contributions at EIDIKO Systems Integrators&rsquo;
+              16th anniversary celebration.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section section--contact" id="contact" aria-labelledby="contact-heading">
+      <div class="contact">
+        <div class="contact__intro">
+          <h2 class="section__title" id="contact-heading">Let&rsquo;s work together</h2>
+          <p class="section__intro">
+            Open to Platform Engineering and Production Operations roles &mdash; particularly OpenShift,
+            IBM integration middleware and regulated banking environments. Reach out and I&rsquo;ll get
+            back to you.
+          </p>
+          <ul class="contact__list">
+            <li>
+              <span class="contact__label">Location</span>
+              <span>Hyderabad, Telangana, India</span>
+            </li>
+            <li>
+              <span class="contact__label">LinkedIn</span>
+              <a href="https://linkedin.com/in/rajeev-ponna-279a791b5" rel="noopener noreferrer" target="_blank">linkedin.com/in/rajeev-ponna-279a791b5</a>
+            </li>
+          </ul>
+        </div>
+
+        <form
+          class="contact__form"
+          id="contact-form"
+          action="https://formspree.io/f/YOUR_FORM_ID"
+          method="POST"
+          novalidate
+        >
+          <!-- Replace YOUR_FORM_ID in the action above with your Formspree form ID. -->
+          <input type="hidden" name="_subject" value="New portfolio enquiry" />
+          <p class="honeypot" aria-hidden="true">
+            <label for="_gotcha">Leave this field empty</label>
+            <input id="_gotcha" type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+          </p>
+
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error" />
+            <p class="field__error" id="name-error" role="alert" hidden>Please tell me your name.</p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error" />
+            <p class="field__error" id="email-error" role="alert" hidden>Please enter a valid email address.</p>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+            <p class="field__error" id="message-error" role="alert" hidden>Please add a short message.</p>
+          </div>
+
+          <button class="btn btn--primary btn--wide" type="submit">Send message</button>
+          <p class="form-note">
+            Your name, email and message are sent to Formspree and delivered to my inbox so I can reply.
+            I don&rsquo;t use them for anything else, and I&rsquo;ll delete them once we&rsquo;ve spoken.
+          </p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2025</span> Rajeev Ponna. Built by hand with HTML, CSS, and JavaScript.</p>
+    <a class="link" href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
